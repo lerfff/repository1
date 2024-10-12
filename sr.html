@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>самостійна робота</title>
+    <style>
+        #blockA {
+            width: 100%;
+            height: 400px;
+            background-color: green;
+            color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #blockB {
+            width: 400px;
+            height: 200px;
+            background-color: red;
+            display: flex;
+            position: relative;
+        }
+
+        #blockC {
+            width: 110px;
+            height: 100px;
+            background-color: white;
+            color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 0;
+            top: 0px; 
+        }
+
+        #blockD {
+            width: 80px;
+            height: 20px;
+            background-color: lightgray;
+            color: black;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="blockA">
+        A
+        <div id="blockB">
+             В
+            <div id="blockC"> С</div>
+           
+        </div>
+        <div id="blockD">D</div>
+    </div>
+
+    
+</body>
+</html>
